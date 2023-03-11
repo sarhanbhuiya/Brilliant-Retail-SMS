@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SMS</title>
+
+    <link rel="shortcut icon" href="img/icon.webp">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+    <body class="container">
+
+<!-- NAVBAR -->
+
+
+      <nav class="navbar" style="background-color: #e3f2fd;">
+      <!-- Navbar content -->
+
+        <div class="container">
+          <a class="navbar-brand heading" href="#">
+            <img src="img/logo.png" alt="Logo" width="110" height="30" class="d-inline-block align-text-top">
+            BRILLIANT SMS MANAGEMENT SYSTEM
+          </a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+
+      </nav>
+
+      <nav class="navigation  bg-dark justify-content-center">
+
+        <div class="container">
+
+         <ul class="nav nav-pills nav-fill ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="sms.html">SMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="buy.html">BUY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="template.html">TEMPLATE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="report.html">REPORT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="linkshortner.html">LINK SHORTNER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="queries.html">QUERIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="account.html">ACCOUNT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">LOGOUT</a>
+          </li>
+         </ul>
+        </div>
+
+      </nav>
+
+<!-- NAVBAR -->
+
+
+
+
+<!-- HEADING -->
+
+    <div class="smsheading row col-md-6 offset-md-3">
+
+      <h1>RUN YOUR CAMPAIGN</h1>
+      
+    </div>
+
+<!-- HEADING -->
+
+
+
+<!-- SMS -->
+
+
+    <div class="sms container">
+      
+          <div class="row">
+            
+                <div class="count-item col-md-3">
+                  <div class="item-title">
+                    SMS PACKAGE
+                  </div>
+                  <div class="item-box">
+                    0
+                  </div>
+                </div>
+
+                <div class="count-item col-md-3">
+                  <div class="item-title">
+                    SMS SENT
+                  </div>
+                  <div class="item-box">
+                    0
+                  </div>
+                </div>
+
+                <div class="count-item col-md-3">
+                  <div class="item-title">
+                    SMS BALANCE
+                  </div>
+                  <div class="item-box">
+                    0
+                  </div>
+                </div>
+
+                <div class="count-item col-md-3">
+                  <div class="item-title">
+                    VALIDITY REMAINING
+                  </div>
+                  <div class="item-box">
+                    0
+                  </div>
+                </div>
+
+          </div>
+
+          <div class="line">
+          
+          </div>
+
+          <div class="row campaign">
+
+            <div class="col-md-3 campaign_history">
+
+              RECENT CAMPAIGNS
+              
+            </div>
+
+            <div class="row col-md-8 new_campaign">
+
+              <div class="row">
+                    
+                    <div class="col-md-6">
+                      <label for="exampleFormControlInput1" class="form-label">CAMPAIGN NAME</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="CAMPAIGN NAME">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="exampleFormControlInput1" class="form-label">SMS SCHEDULE</label>
+                      <input type="datetime-local" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+
+              </div>
+
+              <div class="row forum">
+
+                  <div class="col-md-12 forum">
+                      <label for="exampleFormControlInput1" class="form-label">RECIPIENTS NUMBER</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="88017xxxxxxx. 018xxxxxxxx, 88019xxxxx, (MAXIMUM 20)">
+                    </div>
+
+                  <div class="col-md-12 forum">
+                      <label for="exampleFormControlInput1" class="form-label">RECIPIENTS TEMPLATE</label>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>SELECT TEMPLATE</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+
+                  <div class="col-md-12 forum">
+                    <label for="exampleFormControlTextarea1" class="form-label">TEXT</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                
+              </div>
+
+              <div class="row forum col-md-4 offset-md-4">
+                <button class="runcampaign">RUN CAMPAIGN</button>
+              </div>
+              
+            </div>
+            
+          </div>
+
+    </div>
+  </div>
+
+
+<!-- SMS -->
+
+
+
+
+<!-- FOOTER -->
+    <div class="footer-dark footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 offset-md-1 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">BRILLIANT</a></li>
+                            <li><a href="#">SMS</a></li>
+                            <li><a href="#">CAMPAIGN</a></li>
+                            <li><a href="#">VALIDITY</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 item text">
+                        <h3>BRILLIANT SMS SERVICE</h3>
+                        <p>Brilliant has been in operation since 2013.Brilliant is powered by a group of leading data and telecommunication providers with over a decade of experience. With the combination of Data and Voice licensing portfolio, Brilliant has a diversified range of IT Enabled Services. </p>
+                    </div>
+                    <div class="row">
+                      <div class="col item social">
+                        <a href="https://www.facebook.com/BrilliantConnectApp/"><i class="icon ion-social-facebook"></i></a>
+                        <a href="https://www.facebook.com/BrilliantConnectApp/"><i class="icon ion-social-twitter"></i></a>
+                        <a href="https://www.facebook.com/BrilliantConnectApp/"><i class="icon ion-social-snapchat"></i></a>
+                        <a href="https://www.facebook.com/BrilliantConnectApp/"><i class="icon ion-social-instagram"></i></a></div>
+                    </div>
+                </div>
+                <p class="copyright">BRILLIANT © 2022</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+<!-- FOOTER -->
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
